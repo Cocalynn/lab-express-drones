@@ -1,1 +1,13 @@
 <h2>Update the drone</h2>
+
+<form action="" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" value="{{drone.name}}">
+    <hr>
+    <label for="propellers">Propellers</label>
+    <input type="number" name="propellers" value="{{drone.propellers}}">
+    <hr>
+    <label for="maxSpeed">Speed</label>
+    <input type="number" name="maxSpeed" value="{{drone.maxSpeed}}">
+    <hr>
+<button type="submit">Update</button>
